@@ -1,0 +1,23 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "acn",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/Templates/Project/acn",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "contentRoot",
+                "path": "/sitecore/content",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/Media Library/Project/acn",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+              }
+        ]
+    }
+}
